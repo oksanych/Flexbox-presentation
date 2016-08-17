@@ -1,0 +1,41 @@
+// --------------------------------------------------
+// Global
+// --------------------------------------------------
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5% !important;
+  height: 100%;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+
+  }
+}
+
+.page-wrap {
+  min-height: 100%;
+}
+
+.container {
+  @include screen-sm {
+    padding: 0 1rem;
+  }
+
+  max-width: $screen-xlg;
+  padding: 0 2rem;
+  margin: 0 auto;
+  width: 100%;
+
+}
