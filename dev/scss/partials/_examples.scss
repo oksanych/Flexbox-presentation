@@ -1,0 +1,12 @@
+// --------------------------------------------------
+// Examples
+// --------------------------------------------------
+
+.code {
+  margin-bottom: 3rem;
+
+  &--property{
+    margin-bottom: 5rem;
+    border: 0.1rem solid $gray-light;
+  }
+}

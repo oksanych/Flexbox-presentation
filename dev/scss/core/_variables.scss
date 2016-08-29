@@ -15,8 +15,31 @@ $screen-xlg: 1600px !default;
 
 // Black
 $black: #000;
+$black-shadow: rgba(0,0,0,.5);
+
+//Gray
+
+$gray-dark: #2E3032;
+$gray: #444;
+$gray-opacity: rgba(153,153,153,.5);
+$gray-light: #ddd;
+
+//Blue
+$blue: rgba(0, 0, 255, 0.8);
+$sky: rgba(179,212,252,.5);
+
+// Green
+$green: rgba(0, 128, 0, 0.8);
+$olive: #690;
+
+// Red
+$red: rgba(255, 0, 0, 0.7);
+$eggplant: #905;
+
+
 
 // White
+$whisper: #f5f2f0;
 $white-smoke: #f2f2f2;
 $white: #fff;
 

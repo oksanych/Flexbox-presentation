@@ -1,4 +1,4 @@
-# Flexbox-presentation
+# Flexbox presentation
 
 ### Installation
 

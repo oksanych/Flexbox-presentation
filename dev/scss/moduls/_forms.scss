@@ -179,6 +179,61 @@
   }
 }
 
+// Radio button before/after
+// --------------------------
+
+.radio-btn {
+
+  &:not(checked) {
+    position: absolute;
+    opacity: 0;
+
+    + .radio-label {
+      cursor: pointer;
+      display: inline-block;
+      font-size: $font-size-lg;
+      margin: 0 5rem 3rem 0;
+      padding-left: 4rem;
+      position: relative;
+
+      &::before {
+        background: $white;
+        border: .1rem solid $gray-opacity;
+        border-radius: 50%;
+        content: '';
+        height: 2.2rem;
+        left: 0;
+        position: absolute;
+        top: .2rem;
+        width: 2.2rem;
+      }
+
+      &::after {
+        background: $eggplant;
+        box-shadow: inset 0 .1rem .1rem $black-shadow;
+        border-radius: 50%;
+        content: '';
+        height: 1.6rem;
+        left: .4rem;
+        opacity: 0;
+        position: absolute;
+        top: .6rem;
+        transition: all .2s;
+        width: 1.6rem;
+      }
+    }
+
+    &:checked {
+      + .radio-label {
+
+        &::after {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
 // Checkbox
 // --------------------------
 

@@ -1,3 +1,27 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<script src="../js/main.js"></script>
+
 <script>
-  
+
+    // Slideout
+    // --------------------------
+    var slideout = new Slideout({
+        'panel': document.getElementById('page-wrap'),
+        'menu': document.getElementById('nav'),
+        'padding': 256,
+        'tolerance': 70
+    });
+
+    document.querySelector('.btn-mobile-menu-js').addEventListener('click', function () {
+        slideout.toggle();
+    });
+
+    // svg4everybody
+    // --------------------------
+    $(document).ready(function () {
+        svg4everybody({});
+    });
+
 </script>

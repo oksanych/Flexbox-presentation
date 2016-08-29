@@ -1,0 +1,78 @@
+<div class="container">
+
+    <h2 class="title">HTML</h2>
+
+    <div class="code">
+    <pre class="line-numbers">
+    <code class="language-markup">
+   &lt;section class="content"&gt;
+
+      &lt;!-- START block --&gt;
+      &lt;div class="block"&gt;
+        &lt;img src="http://lorempixel.com/600/400/sports/1" alt="Image" class="block__img"/&gt;
+
+        &lt;h3 class="block__title"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/h3&gt;
+
+        &lt;p class="block__preview"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum a recusandae, repudiandae, at id, ea ipsum pariatur minus doloremque corporis fugit! Unde numquam saepe eum porro animi, beatae rem libero.&lt;/p&gt;
+      &lt;/div&gt;
+       &lt;!-- END block --&gt;
+
+       &lt;!-- START block --&gt;
+      &lt;div class="block"&gt;
+        &lt;img src="http://lorempixel.com/600/400/sports/2" alt="Image" class="block__img"/&gt;
+
+        &lt;h3 class="block__title"&gt;Lorem ipsum dolor sit amet.&lt;/h3&gt;
+
+        &lt;p class="block__preview"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum a recusandae, repudiandae, at id, ea ipsum pariatur minus doloremque corporis fugit! Unde numquam saepe eum porro animi, beatae rem libero.&lt;/p&gt;
+      &lt;/div&gt;
+       &lt;!-- END block --&gt;
+
+       &lt;!-- START block --&gt;
+      &lt;div class="block"&gt;
+        &lt;img src="http://lorempixel.com/600/400/sports/3" alt="Image" class="block__img"/&gt;
+
+        &lt;h3 class="block__title"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit recusandae, repudiandae.&lt;/h3&gt;
+
+        &lt;p class="block__preview"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum a recusandae, repudiandae, at id, ea ipsum pariatur minus doloremque corporis fugit! Unde numquam saepe eum porro animi, beatae rem libero.&lt;/p&gt;
+      &lt;/div&gt;
+       &lt;!-- END block --&gt;
+
+    &lt;/section&gt;
+    </code>
+    </pre>
+    </div>
+
+    <h2 class="title">SCSS</h2>
+
+    <div class="code">
+    <pre class="line-numbers">
+    <code class="language-css">
+     .content {
+          display: flex;
+          flex-wrap: wrap;
+      }
+
+     .block {
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+          flex-basis: 250px;
+
+          &__preview {
+                margin-top: auto;
+          }
+      }
+    </code>
+    </pre>
+    </div>
+
+
+    <section class="pen">
+        <p data-height="600" data-theme-id="0" data-slug-hash="pbXrPq" data-default-tab="result" data-user="Oksanych"
+           data-embed-version="2" class="codepen">
+            See the Pen <a href="http://codepen.io/Oksanych/pen/pbXrPq/">Flex blocks</a>
+            by Aleksandr (<a href="http://codepen.io/Oksanych">@Oksanych</a>)
+            on <a href="http://codepen.io">CodePen</a>.
+        </p>
+    </section>
+</div>

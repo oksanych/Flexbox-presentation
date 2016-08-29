@@ -8,7 +8,6 @@
 .link {
   @include transition(color, 0.15s, linear);
 
-
   &:hover,
   &:active,
   &:focus {
@@ -20,5 +19,30 @@
 // --------------------------
 
 .title {
+  font-size: $font-size-xxlg;
+  font-weight: bold;
 
+  &--sub {
+    font-size: $font-size-xlg;
+    font-weight: normal;
+  }
+
+  &__value{
+    color: $gray;
+    font-weight: normal;
+  }
+}
+
+// Description
+// --------------------------
+.description {
+  font-size: $font-size-lg;
+
+  &__key {
+    font-weight: bold;
+  }
+
+  &__value {
+    color: $eggplant;
+  }
 }

@@ -12,20 +12,26 @@ html {
 }
 
 body {
+  color: $gray-dark;
+  height: 100%;
+  font-family: Helvetica, sans-serif;
   font-size: 1.8rem;
   line-height: 1.2;
+  width: 100%;
 }
 
 a {
   text-decoration: none;
+  color: $eggplant;
 
   &:hover {
-
+    color: lighten($eggplant, 10%);
   }
 }
 
 .page-wrap {
   min-height: 100%;
+  background: $white;
 }
 
 .container {
@@ -33,9 +39,15 @@ a {
     padding: 0 1rem;
   }
 
-  max-width: $screen-xlg;
+  width: $screen-lg;
   padding: 0 2rem;
   margin: 0 auto;
-  width: 100%;
+}
 
+.title {
+  padding: 2rem 0;
+}
+
+.pen {
+  margin-bottom: 10rem;
 }

@@ -1,0 +1,84 @@
+<div class="container">
+
+    <h2 class="title">HTML</h2>
+
+    <div class="code">
+    <pre class="line-numbers">
+    <code class="language-markup">
+    &lt;header class="header"&gt;
+
+      &lt;!-- START logo --&gt;
+      &lt;div class="header__logo"&gt;
+        &lt;a href="#" class="logo"&gt;
+          &lt;img src="https://www.ciklum.com/ciklum-brand/ciklum-logo.svg" alt="Logo" class="logo__img" /&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;!-- END logo --&gt;
+
+      &lt;!-- START navigation --&gt;
+      &lt;nav class="header__nav"&gt;
+          &lt;ul class="nav"&gt;
+            &lt;li class="nav__item"&gt;
+              &lt;a href="#" class="nav__link"&gt;Home&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav__item"&gt;
+              &lt;a href="#" class="nav__link"&gt;About&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav__item"&gt;
+              &lt;a href="#" class="nav__link"&gt;Team&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav__item"&gt;
+              &lt;a href="#" class="nav__link"&gt;Portfolio&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav__item"&gt;
+              &lt;a href="#" class="nav__link"&gt;Blog&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav__item"&gt;
+              &lt;a href="#" class="nav__link"&gt;Contacts&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+      &lt;/nav&gt;
+      &lt;!-- END navigation --&gt;
+
+    &lt;/header&gt;
+    </code>
+    </pre>
+    </div>
+
+    <h2 class="title">SCSS</h2>
+
+    <div class="code">
+    <pre class="line-numbers">
+    <code class="language-css">
+     .header {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+
+        &__logo {
+            flex-grow: 1;
+        }
+
+        &__nav {
+            flex-grow: 1;
+        }
+    }
+
+    .nav{
+      display: flex;
+      justify-content: space-around;
+    }
+    </code>
+    </pre>
+    </div>
+
+
+    <section class="pen">
+        <p data-height="300" data-theme-id="0" data-slug-hash="AXGJQq" data-default-tab="result" data-user="Oksanych"
+           data-embed-version="2" class="codepen">
+            See the Pen <a href="http://codepen.io/Oksanych/pen/AXGJQq/">Flex navigation</a>
+            by Aleksandr (<a href="http://codepen.io/Oksanych">@Oksanych</a>)
+            on <a href="http://codepen.io">CodePen</a>.
+        </p>
+    </section>
+</div>
